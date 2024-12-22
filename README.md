@@ -11,3 +11,8 @@ HC05-HC06-notes
 
 ### Tutorials
 - [HC-05/06 Bluetooth Modules — DCC-EX Model Railroading documentation](https://dcc-ex.com/reference/hardware/bluetooth/hc-05-06.html#hc-05-vs-hc-06)
+
+### Pairing
+- [Arduino and Bluetooth with the HC-06 Pairing the module with a computer 3/5 - YouTube](https://www.youtube.com/watch?v=nkBtGI5g1a0)
+- [How to Pair HC-05 Bluetooth Modules - YouTube](https://www.youtube.com/watch?v=BXXAcFOTnBo)
+- [Make a communication between HC-05 and HC-06 Bluetooth modules with Arduino - YouTube](https://www.youtube.com/watch?v=Y2uwyUNt9ZM)
