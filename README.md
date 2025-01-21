@@ -9,6 +9,9 @@ HC05-HC06-notes
 ### Pairing
 - > The Bluetooth modules (HC-05 and HC-06) will try to pair. If pairing is successful, a RED LED at HC05 will flash regularly, and a RED LED at HC06 will keep glowing.
 
+### AT Commands
+- https://s3-sa-east-1.amazonaws.com/robocore-lojavirtual/709/HC-05_ATCommandSet.pdf
+
 ### Tutorials
 - [HC-05/06 Bluetooth Modules — DCC-EX Model Railroading documentation](https://dcc-ex.com/reference/hardware/bluetooth/hc-05-06.html#hc-05-vs-hc-06)
 
