@@ -1,4 +1,5 @@
 #include <SoftwareSerial.h>
+//   SoftwareSerial(uint8_t receivePin, uint8_t transmitPin, bool inverse_logic = false);
 SoftwareSerial BTSerial (11, 10);
 
 void  setup() {
