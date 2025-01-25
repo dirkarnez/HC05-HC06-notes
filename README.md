@@ -13,6 +13,10 @@ HC05-HC06-notes
 - https://s3-sa-east-1.amazonaws.com/robocore-lojavirtual/709/HC-05_ATCommandSet.pdf
 
 ### Tutorials
+- https://projecthub.arduino.cc/RucksikaaR/interfacing-the-hc-06-bluetooth-module-with-arduino-94aabd
+- https://www.instructables.com/Tutorial-Using-HC06-Bluetooth-to-Serial-Wireless-U-1/
+- https://www.martyncurrey.com/arduino-and-hc-06-zs-040/
+- https://www.youtube.com/watch?v=BJvxNxYcFOo
 - [HC-05/06 Bluetooth Modules — DCC-EX Model Railroading documentation](https://dcc-ex.com/reference/hardware/bluetooth/hc-05-06.html#hc-05-vs-hc-06)
 
 ### Pairing
