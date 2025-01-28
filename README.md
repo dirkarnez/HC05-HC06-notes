@@ -9,6 +9,9 @@ HC05-HC06-notes
 ### Pairing
 - > The Bluetooth modules (HC-05 and HC-06) will try to pair. If pairing is successful, a RED LED at HC05 will flash regularly, and a RED LED at HC06 will keep glowing.
 
+### Model
+- zs-040
+
 ### AT Commands
 - https://s3-sa-east-1.amazonaws.com/robocore-lojavirtual/709/HC-05_ATCommandSet.pdf
 
@@ -18,6 +21,10 @@ HC05-HC06-notes
 - https://www.martyncurrey.com/arduino-and-hc-06-zs-040/
 - https://www.youtube.com/watch?v=BJvxNxYcFOo
 - [HC-05/06 Bluetooth Modules — DCC-EX Model Railroading documentation](https://dcc-ex.com/reference/hardware/bluetooth/hc-05-06.html#hc-05-vs-hc-06)
+- https://github.com/SolidSoils/Arduino/blob/master/Solid.Arduino.IntegrationTest/HC06-Bluetooth.ino
+- https://www.martyncurrey.com/arduino-and-hc-06-zs-040/
+- https://forum.arduino.cc/t/arduino-uno-hc-06-at-commands-not-working/630307
+- https://www.martyncurrey.com/arduino-and-hc-06-zs-040/
 
 ### Pairing
 - [Arduino and Bluetooth with the HC-06 Pairing the module with a computer 3/5 - YouTube](https://www.youtube.com/watch?v=nkBtGI5g1a0)
