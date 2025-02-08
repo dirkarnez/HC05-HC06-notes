@@ -1,50 +1,31 @@
 /*
-  Analog Input
+  Analog input reads an analog input on analog in 0, prints the value out.
+  created 24 March 2006
+  by Tom Igoe
+  */
 
-  Demonstrates analog input by reading an analog sensor on analog pin 0 and
-  turning on and off a light emitting diode(LED) connected to digital pin 13.
-  The amount of time the LED will be on and off depends on the value obtained
-  by analogRead().
-
-  The circuit:
-  - potentiometer
-    center pin of the potentiometer to the analog input 0
-    one side pin (either one) to ground
-    the other side pin to +5V
-  - LED
-    anode (long leg) attached to digital output 13 through 220 ohm resistor
-    cathode (short leg) attached to ground
-
-  - Note: because most Arduinos have a built-in LED attached to pin 13 on the
-    board, the LED is optional.
-
-  created by David Cuartielles
-  modified 30 Aug 2011
-  By Tom Igoe
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogInput
-*/
-
-int sensorPin = A0;   // select the input pin for the potentiometer
-int ledPin = 13;      // select the pin for the LED
-int sensorValue = 0;  // variable to store the value coming from the sensor
+int analogValue = 0;    // variable to hold the analog value
 
 void setup() {
-  // declare the ledPin as an OUTPUT:
-  pinMode(ledPin, OUTPUT);
+  // open the serial port at 9600 bps:
+  Serial.begin(9600);
 }
 
 void loop() {
-  // read the value from the sensor:
-  sensorValue = analogRead(sensorPin);
-  // turn the ledPin on
-  digitalWrite(ledPin, HIGH);
-  // stop the program for <sensorValue> milliseconds:
-  delay(sensorValue);
-  // turn the ledPin off:
-  digitalWrite(ledPin, LOW);
-  // stop the program for <sensorValue> milliseconds:
-  delay(sensorValue);
+  // read the analog input on pin 0:
+  analogValue = analogRead(0);
+  float voltage = 5.0 * (analogValue / 1023.0);
+  // print it out in many formats:
+  Serial.print(analogValue);       // print as an ASCII-encoded decimal
+  
+  Serial.print(analogValue, DEC);  // print as an ASCII-encoded decimal
+  Serial.print(analogValue, HEX);  // print as an ASCII-encoded hexadecimal
+  Serial.print(analogValue, OCT);  // print as an ASCII-encoded octal
+  Serial.print(analogValue, BIN);  // print as an ASCII-encoded binary
+
+  Serial.print("voltage: "); 
+  Serial.println(voltage);  // print as an ASCII-encoded binary
+
+  // delay 10 milliseconds before the next reading:
+  delay(10);
 }
