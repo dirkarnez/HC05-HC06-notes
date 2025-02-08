@@ -5,6 +5,7 @@ HC05-HC06-notes
 
 ### HC06 (4 pins)
 - > HC-06 has 4 pins and can only be a slave device
+- my HC-06 is configured running at 115200
 
 ### Pairing
 - > The Bluetooth modules (HC-05 and HC-06) will try to pair. If pairing is successful, a RED LED at HC05 will flash regularly, and a RED LED at HC06 will keep glowing.
