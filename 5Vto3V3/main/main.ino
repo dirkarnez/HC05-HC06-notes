@@ -17,15 +17,16 @@ void loop() {
   float voltage = 5.0 * (analogValue / 1023.0);
   // print it out in many formats:
   Serial.print(analogValue);       // print as an ASCII-encoded decimal
-  
+  Serial.print(", DEC: "); 
   Serial.print(analogValue, DEC);  // print as an ASCII-encoded decimal
+  Serial.print(", HEX: "); 
   Serial.print(analogValue, HEX);  // print as an ASCII-encoded hexadecimal
+  Serial.print(", OCT: "); 
   Serial.print(analogValue, OCT);  // print as an ASCII-encoded octal
+  Serial.print(", BIN: "); 
   Serial.print(analogValue, BIN);  // print as an ASCII-encoded binary
-
-  Serial.print("voltage: "); 
+  Serial.print(", voltage: "); 
   Serial.println(voltage);  // print as an ASCII-encoded binary
-
   // delay 10 milliseconds before the next reading:
   delay(10);
 }
