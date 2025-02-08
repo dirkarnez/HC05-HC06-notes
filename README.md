@@ -5,13 +5,17 @@ HC05-HC06-notes
 
 ### HC06 (4 pins)
 - > HC-06 has 4 pins and can only be a slave device
-- my HC-06 is configured running at 115200
+- my HC-06 (zs-040) is configured running at 115200
+  - to test working: [./HC-06/ArduinoSoftSertialCommunication](./HC-06/ArduinoSoftSertialCommunication)
 
 ### Pairing
 - > The Bluetooth modules (HC-05 and HC-06) will try to pair. If pairing is successful, a RED LED at HC05 will flash regularly, and a RED LED at HC06 will keep glowing.
 
 ### Model
 - zs-040
+
+### Tools
+- [BlueTerm 3 - Apps on Google Play](https://play.google.com/store/apps/details?id=com.softhouse.blueterm3&pli=1)
 
 ### AT Commands
 - https://s3-sa-east-1.amazonaws.com/robocore-lojavirtual/709/HC-05_ATCommandSet.pdf
